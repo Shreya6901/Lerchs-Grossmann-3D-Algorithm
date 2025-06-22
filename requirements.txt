@@ -1,0 +1,17 @@
+# Core scientific computing libraries
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Visualization libraries
+matplotlib>=3.5.0
+
+# Optional: For better performance and additional functionality
+scipy>=1.7.0
+
+# Optional: For enhanced data analysis
+seaborn>=0.11.0
+
+# Type checking and development tools (optional)
+matplotlib-stubs>=0.2.0
+pytest>=6.0.0
+jupyter>=1.0.0

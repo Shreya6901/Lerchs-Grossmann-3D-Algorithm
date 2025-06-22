@@ -1,11 +1,11 @@
 
-# ⛏️ Lerchs-Grossmann 3D Pit Optimization
+#  Lerchs-Grossmann 3D Pit Optimization
 
 This project implements the **Lerchs-Grossmann (LG) Algorithm** in Python to optimize open-pit mine design. It helps determine the **ultimate pit limit** that maximizes economic value, while respecting geotechnical slope constraints.
 
 
 
-## 📘 About the Algorithm
+##  About the Algorithm
 
 The **Lerchs-Grossmann algorithm** (1965) is a graph-theoretic solution to the **maximum closure problem** and is widely used in the mining industry to:
 
@@ -17,7 +17,7 @@ This Python implementation uses a max-flow based approach to solve the closure p
 
 
 
-## 💡 Key Features
+##  Key Features
 
 - 3D grid block model (voxel-based)
 - Random or CSV-based block generation
@@ -27,7 +27,7 @@ This Python implementation uses a max-flow based approach to solve the closure p
 - CSV output of extracted blocks
 
 
-## 📁 File Structure
+##  File Structure
 
 ```
 Lerchs-Grossmann-3D-Algorithm
@@ -38,9 +38,9 @@ Lerchs-Grossmann-3D-Algorithm
 ```
 
 
-## 🚀 How to Run
+##  How to Run
 
-### 🔧 1. Setup Environment
+###  1. Setup Environment
 
 Make sure you have Python 3.7+ installed. Then install required packages:
 
@@ -48,7 +48,7 @@ Make sure you have Python 3.7+ installed. Then install required packages:
 pip install -r requirements.txt
 ```
 
-### 📦 2. Run the Script
+###  2. Run the Script
 
 In VS Code or terminal:
 
@@ -56,7 +56,7 @@ In VS Code or terminal:
 python lerchs_grossmann.py
 ```
 
-### 🧾 Input Format (`mine_pit_dataset.csv`)
+###  Input Format (`mine_pit_dataset.csv`)
 
 ```csv
 X,Y,Z,Value,Grade,Rock_Type
@@ -68,7 +68,7 @@ X,Y,Z,Value,Grade,Rock_Type
 Each row defines a block at coordinates `(X, Y, Z)` with its value, ore grade, and rock type.
 
 
-## 📊 Output
+##  Output
 
 * Terminal output with:
 
@@ -83,16 +83,7 @@ Each row defines a block at coordinates `(X, Y, Z)` with its value, ore grade, a
   * Gray/Yellow = Unextracted blocks (if shown)
 
 
-## 🛠️ Modify for Your Dataset
-
-To use your own dataset:
-
-1. Prepare a CSV file in the same format.
-2. Replace `mine_pit_dataset.csv` with your file name.
-3. Run the script again.
-
-
-## 📚 References
+##  References
 
 * Lerchs, H., & Grossmann, I. F. (1965). *Optimum Design of Open-Pit Mines*.
 * Muir, D. C. W. (2022). *Lerchs-Grossmann Pit Design: Fifty+ Year History and Code*.
